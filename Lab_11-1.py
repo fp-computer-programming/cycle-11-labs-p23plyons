@@ -1,12 +1,11 @@
 # Author: PCL 1/30/23
 
 #defining a dictionary of students in the class to their computer number
-dictionary_1 = {"Sean":7, "Jan": 3, "Preston":0}
+row = {34:"Sean", 27:"Jan", 5:"Preston", 21:"Colin", 30:"Will", 13:"Ben", 8:"Brian", 35:"Robbie", 15:"Aidan", 18:"Nathanial", 36:"Ethan", 7:"Vishnu", 2:"Tanner", 24:"Joseph", 3:"Jack", 10:"Richie", 17:"Nick"}
 
-print(dictionary_1)
+print(row)
 
 #5. 
-dictionary_1["Someone Else"] = dictionary_1["Preston"]
-del dictionary_1["Preston"]
+row[5] = "Someone Else"
 
-print(dictionary_1)
+print(row)
